@@ -13,7 +13,21 @@
     <title>LAMP</title>
 </head>
 
-<body>
+<body class="vh-100  " id="demo">
+    <div class="container h-100  ">
+        <div class="row   h-100  justify-content-center align-items-center  text-center">
+            <div class="col-md-4 ">
+                <button class="btn btn-success" onclick="turnon()">turn on</button>
+            </div>
+            <div class="col-md-4">
+                <img id="img" src="images/pic_bulboff.gif" alt="">
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-danger" onclick="turnoff()">turn off</button>
+            </div>
+            <div class=" col-md-12"><button class="btn btn-warning" onclick="toggle()" id="btntoggle">turn off</button></div>
+        </div>
+    </div>
 
 
     <!-- my script  -->
